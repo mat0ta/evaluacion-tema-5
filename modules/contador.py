@@ -18,6 +18,6 @@ def check_txt(action='NaN'):
 if __name__ == '__main__':
     check_txt()
     parser = argparse.ArgumentParser()
-    parser.add_argument('action', type=str, help='accion a realizar')
+    parser.add_argument('action', type=str, help='Accion a realizar')
     args = parser.parse_args()
     check_txt(args.action)
